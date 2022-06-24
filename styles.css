@@ -17,13 +17,17 @@ body {
     border: solid 3px black;
 }
 
-#screen {
+#screen-container {
     text-align: right;
-    background-color: white;
-    margin: 5px;
     padding: 5px;
+    background-color: white;
     border-radius: 5px;
     border: solid 3px black;
+}
+
+#second-screen {
+    margin: 5px;
+    min-height: 25px;
 }
 
 #buttons {
@@ -34,7 +38,7 @@ body {
     grid-gap: 10px;
 }
 
-.clears {
+.clear, #num-0 {
     grid-column: span 2;
     padding: 10px;
 }
@@ -43,7 +47,4 @@ body {
     padding: 15px;
 }
 
-#num-0 {
-    grid-column: span 2;
-}
 
